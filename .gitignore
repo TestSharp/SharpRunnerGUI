@@ -286,3 +286,16 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/TestRunnerGUI/logs
+/TestRunnerGUI/logs
+/TestRunnerGUI/logs/20170526_133351_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170526_133203_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170526_093538_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170525_171654_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170525_171610_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170525_170842_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170525_144549_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170525_144341_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170525_142449_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170525_133650_TestSharpRunnerGUIlog.txt
+/TestRunnerGUI/logs/20170525_133029_TestSharpRunnerGUIlog.txt
