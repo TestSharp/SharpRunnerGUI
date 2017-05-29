@@ -41,7 +41,7 @@ namespace TestRunnerGUI
                     currentAssemblyDirectory = currentAssemblyDirectory.Replace ( stringToReplace, "" );
                 }
 
-                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "TestRunnerData" );
+                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "SharpRunnerData" );
 
                 Directory.CreateDirectory( testRunnerDataDirectory );
 
@@ -76,7 +76,7 @@ namespace TestRunnerGUI
                     currentAssemblyDirectory = currentAssemblyDirectory.Replace ( stringToReplace, "" );
                 }
 
-                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "TestRunnerData" );
+                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "SharpRunnerData" );
 
                 Directory.CreateDirectory( testRunnerDataDirectory );
 
@@ -111,7 +111,7 @@ namespace TestRunnerGUI
                     currentAssemblyDirectory = currentAssemblyDirectory.Replace ( stringToReplace, "" );
                 }
 
-                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "TestRunnerData" );
+                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "SharpRunnerData" );
 
                 string serializedFilePath = Path.Combine( testRunnerDataDirectory, "runopt.bin" );
 
@@ -144,7 +144,7 @@ namespace TestRunnerGUI
                     currentAssemblyDirectory = currentAssemblyDirectory.Replace ( stringToReplace, "" );
                 }
 
-                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "TestRunnerData" );
+                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "SharpRunnerData" );
 
                 string serializedFilePath = Path.Combine( testRunnerDataDirectory, "browsers.bin" );
 

@@ -30,7 +30,15 @@ namespace TestRunnerGUI.Utilities
             {
                 string currentAssemblyDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
-                string serializedFilePath = currentAssemblyDirectory + "testbuildable.bin";
+                if ( currentAssemblyDirectory.Contains( "bin" ) )
+                {
+                    string stringToReplace = currentAssemblyDirectory.Substring( currentAssemblyDirectory.IndexOf( "bin", StringComparison.Ordinal ) - 1 );
+                    currentAssemblyDirectory = currentAssemblyDirectory.Replace( stringToReplace, "" );
+                }
+
+                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "SharpRunnerData" );
+
+                string serializedFilePath = testRunnerDataDirectory + "testbuildable.bin";
 
                 using (Stream stream = File.Open( serializedFilePath, FileMode.Create ) )
                 {
@@ -51,7 +59,15 @@ namespace TestRunnerGUI.Utilities
             {
                 string currentAssemblyDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
-                string serializedFilePath = currentAssemblyDirectory + "testbuildable.bin";
+                if ( currentAssemblyDirectory.Contains( "bin" ) )
+                {
+                    string stringToReplace = currentAssemblyDirectory.Substring( currentAssemblyDirectory.IndexOf( "bin", StringComparison.Ordinal ) - 1 );
+                    currentAssemblyDirectory = currentAssemblyDirectory.Replace( stringToReplace, "" );
+                }
+
+                string testRunnerDataDirectory = Path.Combine( currentAssemblyDirectory, "SharpRunnerData" );
+
+                string serializedFilePath = testRunnerDataDirectory + "testbuildable.bin";
 
                 if ( File.Exists( serializedFilePath ) )
                 {

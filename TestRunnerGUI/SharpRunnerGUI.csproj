@@ -7,8 +7,8 @@
     <ProjectGuid>{1C6A11B5-9A8C-481B-9DDF-0A4429868D80}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestRunnerGUI</RootNamespace>
-    <AssemblyName>TestRunnerGUI</AssemblyName>
+    <RootNamespace>SharpRunnerGUI</RootNamespace>
+    <AssemblyName>SharpRunnerGUI</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

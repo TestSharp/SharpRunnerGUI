@@ -5,11 +5,14 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "TestRunnerGUI" )]
+
+// Created by Daniel Erdos, 2017/05
+
+[assembly: AssemblyTitle( "SharpRunnerGUI" )]
 [assembly: AssemblyDescription( "" )]
 [assembly: AssemblyConfiguration( "" )]
-[assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "TestRunnerGUI" )]
+[assembly: AssemblyCompany( "TestSharp" )]
+[assembly: AssemblyProduct( "SharpRunnerGUI" )]
 [assembly: AssemblyCopyright( "Copyright ©  2017" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
